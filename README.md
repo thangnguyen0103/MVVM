@@ -6,8 +6,9 @@ It is MVVM Architecture without [LiveData].
 
 ## Testing Purpose
 
-Comment this line: single<RepoRepository> { RepoRepositoryImpl(get()) }
-Uncomment this line: single<RepoRepository> { FakeRepoRepository(get()) }
+Comment this line: single<RepoRepository> { RepoRepositoryImpl(get()) }.
+
+Uncomment this line: single<RepoRepository> { FakeRepoRepository(get()) }.
 ```kotlin
 val appModule = module {
   // data/repository
@@ -20,7 +21,7 @@ val appModule = module {
 
 ## Architecture
 
-<img src="images/mvvm.png" width="250px" />
+<img src="images/mvvm.png" width="500px" />
 
 ### ViewModel -> View
 
