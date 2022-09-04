@@ -4,7 +4,7 @@ This is a sample app that uses kotlin coroutines.
 
 It is MVVM Architecture without [LiveData].
 
-## Testing Purpose
+## Testing Purpose (Use it when got Limit exception)
 
 Comment this line: single<RepoRepository> { RepoRepositoryImpl(get()) }.
 
