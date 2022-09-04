@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DemoMVVM</string>
+    <string name="error_message">Error! Please try again.</string>
+    <string name="retry">Retry</string>
+</resources>

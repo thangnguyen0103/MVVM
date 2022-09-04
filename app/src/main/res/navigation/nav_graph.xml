@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listRepoFragment">
+
+    <fragment
+        android:id="@+id/listRepoFragment"
+        android:name="com.thangnguyen.demomvvm.view.repo.list.ListRepoFragment"
+        android:label="ListRepoFragment">
+        <action
+            android:id="@+id/action_listRepoFragment_to_detailRepoFragment"
+            app:destination="@id/detailRepoFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/detailRepoFragment"
+        android:name="com.thangnguyen.demomvvm.view.repo.details.DetailRepoFragment"
+        android:label="fragment_detail_repo"
+        tools:layout="@layout/fragment_detail_repo">
+
+        <argument
+            android:name="user"
+            app:argType="string" />
+        <argument
+            android:name="repo"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
