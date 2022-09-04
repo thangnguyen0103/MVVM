@@ -18,6 +18,7 @@ val appModule = module {
     // data/repository
     single<RepoRepository> { RepoRepositoryImpl(get()) }
 
+    // testing purpose
 //    single<RepoRepository> { FakeRepoRepository(get()) }
 
     // data/api
