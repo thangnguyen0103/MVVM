@@ -1,6 +1,5 @@
 package com.thangnguyen.demomvvm.view.repo.list
 
-import android.util.Log
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
@@ -9,8 +8,8 @@ import androidx.core.view.MenuProvider
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
+import androidx.paging.PagingData
 import androidx.recyclerview.widget.DividerItemDecoration
-import androidx.recyclerview.widget.RecyclerView
 import com.thangnguyen.demomvvm.R
 import com.thangnguyen.demomvvm.data.db.entity.Repo
 import com.thangnguyen.demomvvm.databinding.FragmentListRepoBinding
@@ -72,6 +71,7 @@ class ListRepoFragment : BaseFragment<FragmentListRepoBinding>() {
                     .debounce(300)
                     .distinctUntilChanged()
                     .onEach {
+                        adapter.submitData(PagingData.empty())
                         viewModel.setUserName(it)
                     }.launchIn(viewLifecycleOwner.lifecycleScope)
             }

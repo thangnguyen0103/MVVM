@@ -16,9 +16,9 @@ import java.util.*
 
 val appModule = module {
     // data/repository
-//    single<RepoRepository> { RepoRepositoryImpl(get()) }
+    single<RepoRepository> { RepoRepositoryImpl(get()) }
 
-    single<RepoRepository> { FakeRepoRepository(get()) }
+//    single<RepoRepository> { FakeRepoRepository(get()) }
 
     // data/api
     single {
