@@ -4,7 +4,7 @@ This is a sample app that uses kotlin coroutines.
 
 It is MVVM Architecture without [LiveData].
 
-The app show list public repositories for the specified user. You can enter the user name in the SearchBar at the top of screen. The default user name is "Google"
+The app shows list public repositories for the specified user. You can enter the user name in the SearchBar at the top of screen. The default user name is "Google"
 
 ## Testing Purpose (Use it when got Limit exception)
 
