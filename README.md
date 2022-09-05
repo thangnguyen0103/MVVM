@@ -156,7 +156,7 @@ class DetailRepoFragment : BaseFragment<FragmentDetailRepoBinding>() {
     * [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 * [material-components](https://github.com/material-components/material-components-android)
 * [Room Paging](https://developer.android.com/topic/libraries/architecture/paging/v3-overview)
-* [navigation](https://developer.android.com/topic/libraries/architecture/paging/v3-overview](https://developer.android.com/guide/navigation/navigation-getting-started)
+* [Navigation](https://developer.android.com/guide/navigation/navigation-getting-started)
 * [coil](https://github.com/coil-kt/coil)
 * [koin](https://github.com/InsertKoinIO/koin)
 * [retrofit](https://github.com/square/retrofit)
