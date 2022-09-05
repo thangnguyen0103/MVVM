@@ -8,9 +8,14 @@ The app shows list public repositories for the specified user. You can enter the
 
 ## Testing Purpose (Use it when got Limit exception)
 
-Comment this line: single<RepoRepository> { RepoRepositoryImpl(get()) }.
+Comment this line: 
 
-Uncomment this line: single<RepoRepository> { FakeRepoRepository(get()) }.
+single<RepoRepository> { RepoRepositoryImpl(get()) }.
+
+Uncomment this line: 
+  
+single<RepoRepository> { FakeRepoRepository(get()) }.
+  
 ```kotlin
 val appModule = module {
   // data/repository
