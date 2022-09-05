@@ -4,6 +4,8 @@ This is a sample app that uses kotlin coroutines.
 
 It is MVVM Architecture without [LiveData].
 
+The app show list public repositories for the specified user. You can enter the user name in the SearchBar at the top of screen. The default user name is "Google"
+
 ## Testing Purpose (Use it when got Limit exception)
 
 Comment this line: single<RepoRepository> { RepoRepositoryImpl(get()) }.
@@ -148,8 +150,10 @@ class DetailRepoFragment : BaseFragment<FragmentDetailRepoBinding>() {
     * [constraintlayout](https://developer.android.com/reference/android/support/constraint/ConstraintLayout)
     * [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 * [material-components](https://github.com/material-components/material-components-android)
+* [dagger])(https://developer.android.com/topic/libraries/architecture/paging/v3-overview)
 * [coil](https://github.com/coil-kt/coil)
 * [koin](https://github.com/InsertKoinIO/koin)
 * [retrofit](https://github.com/square/retrofit)
 * [okhttp](https://github.com/square/okhttp)
 * [moshi](https://github.com/square/moshi)
+
