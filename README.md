@@ -150,7 +150,7 @@ class DetailRepoFragment : BaseFragment<FragmentDetailRepoBinding>() {
     * [constraintlayout](https://developer.android.com/reference/android/support/constraint/ConstraintLayout)
     * [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 * [material-components](https://github.com/material-components/material-components-android)
-* [dagger])(https://developer.android.com/topic/libraries/architecture/paging/v3-overview)
+* [dagger](https://developer.android.com/topic/libraries/architecture/paging/v3-overview)
 * [coil](https://github.com/coil-kt/coil)
 * [koin](https://github.com/InsertKoinIO/koin)
 * [retrofit](https://github.com/square/retrofit)
